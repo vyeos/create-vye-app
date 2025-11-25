@@ -43,12 +43,7 @@ async function main() {
   console.log(chalk.blue("Installing dependencies..."));
   execSync("pnpm install", { cwd: targetPath, stdio: "inherit" });
 
-  console.log(chalk.blue("Installing shadcn..."));
-  execSync("pnpm dlx shadcn@latest init -y", {
-    cwd: targetPath,
-    stdio: "inherit",
-  });
-
+  console.log(chalk.blue("Configuring shadcn..."));
   execSync("pnpm dlx shadcn@latest add button card input badge", {
     cwd: targetPath,
     stdio: "inherit",

@@ -1,6 +1,6 @@
 {
   "name": "create-vye-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Scaffold Next.js apps with Better Auth, Drizzle ORM, shadcn/ui, and Tailwind - production-ready",
   "type": "module",
   "bin": {
