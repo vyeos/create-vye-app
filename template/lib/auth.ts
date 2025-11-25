@@ -4,6 +4,8 @@ import { db } from "@/db/index";
 import { schema } from "@/db/schema";
 import { nextCookies } from "better-auth/next-js";
 
+// Example: Supabase client initialization.
+// Replace this with the appropriate client setup for your chosen database (see Drizzle docs).
 // export const database = createClient(
 //   process.env.NEXT_PUBLIC_DATABASE_URL!,
 //   process.env.NEXT_PUBLIC_DATABASE_ANON_KEY!,

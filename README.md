@@ -55,7 +55,7 @@ Your app will be running at [http://localhost:3000](http://localhost:3000)
 
 ### Pre-configured Stack
 
-- **Next.js 15+** with App Router and React Server Components
+- **Next.js 16+** with App Router and React Server Components
 - **Tailwind CSS v4** with modern CSS-first configuration
 - **TypeScript** with strict mode disabled for flexibility
 - **shadcn/ui** components (Button, Card, Input, Badge) pre-installed

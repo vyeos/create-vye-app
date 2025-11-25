@@ -1,7 +1,7 @@
 {
   "name": "create-vye-app",
-  "version": "1.0.0",
-  "description": "Make a NextJS app like Vyeos does",
+  "version": "1.0.1",
+  "description": "Scaffold Next.js apps with Better Auth, Drizzle ORM, shadcn/ui, and Tailwind - production-ready",
   "type": "module",
   "bin": {
     "create-vye-app": "index.js"
