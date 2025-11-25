@@ -7,7 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write"
+    "format": "biome format --write",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "class-variance-authority": "latest",
@@ -17,7 +21,8 @@
     "react": "latest",
     "react-dom": "latest",
     "tailwindcss": "latest",
-    "tailwind-merge": "latest"
+    "tailwind-merge": "latest",
+    "better-auth": "latest"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "latest",
