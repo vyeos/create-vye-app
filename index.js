@@ -82,7 +82,8 @@ function copyDir(src, dest) {
 
   for (const file of fs.readdirSync(src)) {
     const srcFile = path.join(src, file);
-    const destFile = path.join(dest, file);
+    const destFileName = file === "gitignore" ? ".gitignore" : file;
+    const destFile = path.join(dest, destFileName);
 
     if (fs.lstatSync(srcFile).isDirectory()) {
       copyDir(srcFile, destFile);
