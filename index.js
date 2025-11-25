@@ -61,6 +61,19 @@ async function main() {
   });
   execSync("pnpm exec biome init", { cwd: targetPath, stdio: "inherit" });
 
+  console.log(chalk.blue("Install Drizzle..."));
+  execSync("pnpm add drizzle-orm postgres dotenv", {
+    cwd: targetPath,
+    stdio: "inherit",
+  });
+  execSync("pnpm add -D drizzle-kit tsx", {
+    cwd: targetPath,
+    stdio: "inherit",
+  });
+
+  console.log(chalk.blue("Install Better-Auth..."));
+  execSync("pnpm i better-auth", { cwd: targetPath, stdio: "inherit" });
+
   console.log(chalk.blue("Initializing Git..."));
   execSync("git init", { cwd: targetPath, stdio: "inherit" });
 

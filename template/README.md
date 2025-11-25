@@ -1,3 +1,7 @@
+[-] drizzle
+[-] better auth
+[] tanstack query
+[] tanstack form
 # Welcome to Your Vye App! 🚀
 
 This project was bootstrapped with [create-vye-app](https://github.com/vyeos/create-vye-app).
