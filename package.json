@@ -1,0 +1,16 @@
+{
+  "name": "create-vye-app",
+  "version": "1.0.0",
+  "description": "Make a NextJS app like Vyeos does",
+  "type": "module",
+  "bin": {
+    "create-vye-app": "index.js"
+  },
+  "keywords": [],
+  "author": "Vyeos",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "chalk": "^5.3.0"
+  }
+}
